@@ -24,10 +24,10 @@
                 android:layout_marginStart="6dp"
                 android:layout_marginTop="158dp"
                 android:divider="@drawable/regular_divider"
+                android:showDividers="middle"
                 android:gravity="fill"
                 android:minHeight="1000dp"
                 android:orientation="vertical"
-
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -46,9 +46,10 @@
                 android:id="@+id/two"
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="158dp"
                 android:divider="@drawable/regular_divider"
+                android:showDividers="middle"
                 android:minHeight="1000dp"
                 android:orientation="vertical"
 
@@ -69,9 +70,10 @@
                 android:id="@+id/three"
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="158dp"
                 android:divider="@drawable/regular_divider"
+                android:showDividers="middle"
                 android:minHeight="1000dp"
                 android:orientation="vertical"
 
@@ -93,10 +95,12 @@
                 android:id="@+id/four"
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="158dp"
                 android:minHeight="1000dp"
                 android:orientation="vertical"
+                android:divider="@drawable/regular_divider"
+                android:showDividers="middle"
                 app:layout_constraintStart_toEndOf="@+id/three"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -114,12 +118,12 @@
                 android:id="@+id/five"
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="158dp"
                 android:divider="@drawable/regular_divider"
+                android:showDividers="middle"
                 android:minHeight="1000dp"
                 android:orientation="vertical"
-
                 app:layout_constraintStart_toEndOf="@+id/four"
                 app:layout_constraintTop_toTopOf="parent">
 
@@ -137,9 +141,10 @@
                 android:id="@+id/six"
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="158dp"
                 android:divider="@drawable/regular_divider"
+                android:showDividers="middle"
                 android:minHeight="1000dp"
                 android:orientation="vertical"
 
@@ -160,9 +165,10 @@
                 android:id="@+id/seven"
                 android:layout_width="84dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
+                android:layout_marginStart="8dp"
                 android:layout_marginTop="158dp"
                 android:divider="@drawable/regular_divider"
+                android:showDividers="middle"
                 android:minHeight="1000dp"
                 android:orientation="vertical"
 
